@@ -24,6 +24,7 @@ img{
   width: 25%;
   border-radius: 5%;
   margin-bottom: 100px;
+  overflow: none;
 }
 #navigation{
  
