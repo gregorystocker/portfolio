@@ -1,30 +1,53 @@
-.container-fluid{
-  
-   background-image: url("https://i.pinimg.com/originals/f7/5c/b0/f75cb0bd2592daad99cf2d723178bfe6.jpg");
- background-attachment: fixed;
+.container-fluid {
+  background-image: url("https://i.pinimg.com/originals/f7/5c/b0/f75cb0bd2592daad99cf2d723178bfe6.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
-
-.projectName{
-  background-color: rgb(201, 223, 216);
-  padding:1px;
-  border-radius: 50%;
-  height:100%;
-  width:100%;
+.linkedInIcon {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url("./portfoliopics/linkedInIcon.png");
+}
+.githubIcon {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url("./portfoliopics/GitHub-Mark-32px.png");
+}
+.leetcodeIcon {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url("./portfoliopics/LeetCode_logo_black.png");
 }
 
-#welcome-section{
+.projectName {
+  background-color: rgb(201, 223, 216);
+  padding: 1px;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+#welcome-section {
   height: 100vh;
 }
 
-
-
-h1, h2 ,h3{
+h1,
+h2,
+h3 {
   text-align: center;
   color: black;
 }
-img{
+img {
   display: block;
   margin: 0 auto;
   width: 25%;
@@ -32,18 +55,15 @@ img{
   margin-bottom: 100px;
   overflow: none;
 }
-#navigation{
- 
-  background-color: rgba(15,15,15,.5);
-  padding:10px 0 10px 0;
+#navigation {
+  background-color: rgba(15, 15, 15, 0.5);
+  padding: 10px 0 10px 0;
   width: 100%;
   position: fixed;
   z-index: 2;
- 
-  
 }
 
-#after-nav{
+#after-nav {
   border-radius: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -51,53 +71,42 @@ img{
   margin: 0 auto;
   margin-top: 60px;
   margin-bottom: 10px;
-
-
 }
-#projects{
+#projects {
   height: 100vh;
 }
 
-.project-tile img{
-  width:100%;
+.project-tile img {
+  width: 100%;
   height: 100%;
 }
 
-#about-me-section{
+#about-me-section {
   height: 100vh;
 }
 
-#about-me
-{
+#about-me {
   clear: both;
   /*this was a total guess assuming that bootstrap was using floats. It worked!*/
-  
- 
+
   border-radius: 5px;
   padding-bottom: 5px;
   padding-top: 5px;
   text-align: center;
-  background-color: rgba(220,220,220,150);
+  background-color: rgba(220, 220, 220, 150);
   margin-bottom: 50px;
-  background: radial-gradient(  white 25%, silver 45%, gray);
+  background: radial-gradient(white 25%, silver 45%, gray);
   color: black;
 }
-#about-me > h2{
+#about-me > h2 {
   color: black;
 }
 
-
-
-
-
-
-
-
-@media(max-width: 991px){
-  #navigation > div{
-    margin-top:1px;
+@media (max-width: 991px) {
+  #navigation > div {
+    margin-top: 1px;
   }
-  #contact-section > div{
+  #contact-section > div {
     margin-top: 1px;
   }
 }
